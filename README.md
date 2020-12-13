@@ -18,3 +18,4 @@ Dirigirse a la carpeta DSW_EmpresaB\MercadeoUCAB-frontend y ejecutar el siguient
 - Angel Hidalgo
 - Carlos Ortiz
 - Gregg Spinetti
+- Angel Hidalgo

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="mercadeoUcabPU">
+    <class>ucab.dsw.entidades.Categoria</class>
+    <class>ucab.dsw.entidades.Estudio</class>
+    <class>ucab.dsw.entidades.EstudioLugar</class>
+    <class>ucab.dsw.entidades.Hijo</class>
+    <class>ucab.dsw.entidades.HistoricoEstado</class>
+    <class>ucab.dsw.entidades.Informacion</class>
+    <class>ucab.dsw.entidades.Lugar</class>
+    <class>ucab.dsw.entidades.Marca</class>
+    <class>ucab.dsw.entidades.MedioComunicacion</class>
+    <class>ucab.dsw.entidades.NivelAcademico</class>
+    <class>ucab.dsw.entidades.NivelEconomico</class>
+    <class>ucab.dsw.entidades.Ocupacion</class>
+    <class>ucab.dsw.entidades.PreguntaEncuesta</class>
+    <class>ucab.dsw.entidades.PreguntaEstudio</class>
+    <class>ucab.dsw.entidades.Presentacion</class>
+    <class>ucab.dsw.entidades.Producto</class>
+    <class>ucab.dsw.entidades.Respuesta</class>
+    <class>ucab.dsw.entidades.RespuestaPregunta</class>
+    <class>ucab.dsw.entidades.Rol</class>
+    <class>ucab.dsw.entidades.SolicitudEstudio</class>
+    <class>ucab.dsw.entidades.Subcategoria</class>
+    <class>ucab.dsw.entidades.Telefono</class>
+    <class>ucab.dsw.entidades.Tipo</class>
+    <class>ucab.dsw.entidades.Usuario</class>
+    <properties>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mercadeoucab"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.password" value="admin"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+      <property name="eclipselink.logging.level" value="FINE"/>
+    </properties>
+  </persistence-unit>
+</persistence>
